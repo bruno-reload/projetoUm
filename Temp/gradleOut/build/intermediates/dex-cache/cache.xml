@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="912f1e106b633ee285436124c3b7c705f3d6b7cf">
+        <dex dex="/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/pre-dexed/debug/unity-classes_35d3c89cd3a4adc072901405f9f6dc9410f60ae8.jar" />
+    </item>
+
+</items>

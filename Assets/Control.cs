@@ -18,29 +18,48 @@ public class Control : MonoBehaviour
     void Update(){
         move();
     }
-    void move(){
-        
+    void move()
+    {
+
         float distanciaZ = transform.position.z - Camera.main.transform.position.z;
-        float bordaEsquerda = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, distanciaZ + transform.position.x)).x;
-        float bordaDireita = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, distanciaZ - transform.position.x)).x;
+
+        float xPos = transform.position.x;
+
+        float bordaEsquerda = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, distanciaZ + xPos)).x;
+        float bordaDireita = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, distanciaZ - xPos)).x;
         float bordaSuperior = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, distanciaZ)).y;
         float bordaInferior = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, distanciaZ)).y;
 
+        float restricaoX;
+        float restricaoZ; 
 
+#if UNITY_ANDROID
+        restricaoX = Mathf.Clamp(Touch.eixoX, bordaEsquerda, bordaDireita);
+        restricaoZ = Mathf.Clamp(Touch.eixoZ, bordaSuperior, bordaInferior);
+#endif
+#if UNITY_EDITOR
+        restricaoX = Mathf.Clamp(Input.GetAxis("Horizontal"), bordaEsquerda, bordaDireita);
+        restricaoZ = Mathf.Clamp(Input.GetAxis("Vertical"), bordaSuperior, bordaInferior);
+#endif
         CharacterController controller = GetComponent<CharacterController>();
 
-        float restricaoX = Mathf.Clamp(Touch.eixoX, bordaEsquerda, bordaDireita);
-        float restricaoZ = Mathf.Clamp(Touch.eixoZ, bordaSuperior, bordaInferior);
-
         if (controller.isGrounded){
+            
             moveDirection = new Vector3(restricaoX, transform.position.y, restricaoZ);
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
-            if (Touch.jump)
-                moveDirection.y =  jumpSpeed;
-        }
+            if (Touch.jump){
+                moveDirection.y = jumpSpeed;
+            }
+
+        }else{
+            controller.Move(new Vector3(
+                Mathf.Lerp(transform.position.x,restricaoX,1),
+                Mathf.Lerp(transform.position.y ,0,1),
+                Mathf.Lerp(transform.position.z ,restricaoZ,1)));
+        }       
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
 }
- 
+    

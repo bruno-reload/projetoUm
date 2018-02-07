@@ -146,6 +146,12 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
