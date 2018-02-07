@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CameraControl.cs" />
      <Compile Include="Assets\Control.cs" />
      <Compile Include="Assets\Touch.cs" />
  <Reference Include="UnityEngine.UI">

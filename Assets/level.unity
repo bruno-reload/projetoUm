@@ -941,7 +941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957aae94abcff49c6b9c3016d2130478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
   gravity: 15
   jumpSpeed: 8
 --- !u!114 &371696448
@@ -2031,6 +2031,7 @@ GameObject:
   - component: {fileID: 1900725049}
   - component: {fileID: 1900725048}
   - component: {fileID: 1900725047}
+  - component: {fileID: 1900725051}
   m_Layer: 0
   m_Name: Can
   m_TagString: MainCamera
@@ -2101,6 +2102,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1900725051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900725046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23c59a1ad829471c9b7228035b97304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1900725526
 GameObject:
   m_ObjectHideFlags: 0
