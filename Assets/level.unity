@@ -915,7 +915,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371696441}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
@@ -941,8 +941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 957aae94abcff49c6b9c3016d2130478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  gravity: 20
+  speed: 20
+  gravity: 15
   jumpSpeed: 8
 --- !u!114 &371696448
 MonoBehaviour:
@@ -1779,8 +1779,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1284920952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6, y: -1.79, z: 13.93}
-  m_LocalScale: {x: 22.000507, y: 2.2000508, z: 22.000507}
+  m_LocalPosition: {x: -0.60041, y: -1.79, z: 13.93}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_btn_change_account_nor.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_btn_change_account_nor.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_mipay_payment_wx.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_mipay_payment_wx.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_icon_login_wait.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_icon_login_wait.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_btn_change_account_sel.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_btn_change_account_sel.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_img_title.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_img_title.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_list_item_single_bg_60_p.9.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_list_item_single_bg_60_p.9.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_mipay_payment_arrow.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_mipay_payment_arrow.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_btn_bg_click.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_btn_bg_click.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_btn_bg.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_btn_bg.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_list_item_single_bg_60_n.9.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_list_item_single_bg_60_n.9.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_mipay_payment_alipay.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_mipay_payment_alipay.png"
+    },
+    {
+        "merged": "/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/res/merged/debug/drawable-xhdpi-v4/mio_pad_bg_float_win.png",
+        "source": "/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/res/drawable-xhdpi-v4/mio_pad_bg_float_win.png"
+    }
+]

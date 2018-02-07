@@ -45,21 +45,17 @@ public class Control : MonoBehaviour
 
         if (controller.isGrounded){
             
-            moveDirection = new Vector3(restricaoX, transform.position.y, restricaoZ);
+            moveDirection = new Vector3(restricaoX, transform.position.y, restricaoZ).normalized;
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
             if (Touch.jump){
                 moveDirection.y = jumpSpeed;
             }
 
-        }else{
-            controller.Move(new Vector3(
-                Mathf.Lerp(transform.position.x,restricaoX,1),
-                Mathf.Lerp(transform.position.y ,0,1),
-                Mathf.Lerp(transform.position.z ,restricaoZ,1)));
-        }       
+        } 
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+
     }
 }
     

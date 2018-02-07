@@ -10,5 +10,23 @@
         sha1="912f1e106b633ee285436124c3b7c705f3d6b7cf">
         <dex dex="/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/pre-dexed/debug/unity-classes_35d3c89cd3a4adc072901405f9f6dc9410f60ae8.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c152a3dffb906c0d318bd6d9781d52728968110c">
+        <dex dex="/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/pre-dexed/debug/classes_457262c14d896a051b17ec4ea7fa0414bafef3e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/bruno-mint/.android/build-cache/a9726255ffe23b60237643424501efc1360d4aea/output/jars/libs/MIO_SDK_UNITY_1.3.9_10156.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="36d62f6d697622df4e997531cbb4491e844a011c">
+        <dex dex="/home/bruno-mint/projetos/game/projetoUm/Temp/gradleOut/build/intermediates/pre-dexed/debug/MIO_SDK_UNITY_1.3.9_10156_4daa681810c35233fc426299fcead2fe4b81c9aa.jar" />
+    </item>
 
 </items>
