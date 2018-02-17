@@ -51,8 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraControl.cs" />
-     <Compile Include="Assets\Control.cs" />
+     <Compile Include="Assets\Dash.cs" />
+     <Compile Include="Assets\DoubleJump.cs" />
+     <Compile Include="Assets\ObjectPooling.cs" />
+     <Compile Include="Assets\Plataform.cs" />
+     <Compile Include="Assets\PlataformRespawn.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\PowerUp.cs" />
+     <Compile Include="Assets\PowerUpRespawn.cs" />
+     <Compile Include="Assets\ProgresseManager.cs" />
      <Compile Include="Assets\Touch.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/media/bruno-mint/18af7648-b34b-4cdb-81ac-4a19cb1b4670/programa/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -147,11 +154,11 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="ChannelPurchase">
- <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
- </Reference>
  <Reference Include="UnityStore">
  <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>/home/bruno-mint/.config/unity3d/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
